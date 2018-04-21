@@ -4,7 +4,7 @@
   "description": "npm test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -u tdd test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Sunxinqiang/npm/issues"
   },
-  "homepage": "https://github.com/Sunxinqiang/npm#readme"
+  "homepage": "https://github.com/Sunxinqiang/npm#readme",
+  "dependencies": {
+    "mocha": "^5.1.1"
+  }
 }
