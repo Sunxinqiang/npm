@@ -1,0 +1,19 @@
+{
+  "name": "npm-test-sunxinqiang",
+  "version": "1.0.0",
+  "description": "npm test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sunxinqiang/npm.git"
+  },
+  "author": "sunxinqiang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sunxinqiang/npm/issues"
+  },
+  "homepage": "https://github.com/Sunxinqiang/npm#readme"
+}
