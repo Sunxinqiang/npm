@@ -1,9 +1,12 @@
 var assert = require('assert');
-describe('Array', function() {
-  describe('#indexOf()', function () {
-    it('should return -1 when the value is not present', function () {
-      assert.equal(-1, [1,2,3].indexOf(5));
-      assert.equal(-1, [1,2,3].indexOf(0));
+var validate = require('./index.js');
+describe('npm-test-sunxinqiang',function(){
+  describe('#mobileValidate',function(){
+    it('should return true when the validate mobile 18888888888 number puts in',function(){
+      assert.equal(true, validate.mobileValidate('18888888888'));
+    });
+    it('should return false when the wrong number 11111111111 puts in', function(){
+      assert.equal(false, validate.mobileValidate('11111111111'));
     });
   });
 });
